@@ -42,7 +42,7 @@ export const Card = ({
           />
         </div>
       </div>
-      <h3 className='text-center text-lg text-heading md:text-xl lg:text-2xl font-semibold mt-4'>
+      <h3 className='text-start text-lg text-heading md:text-xl lg:text-2xl font-semibold mt-4'>
         {heading}
       </h3>
       <div className='mt-4 flex gap-1 text-base flex-col justify-between'>
