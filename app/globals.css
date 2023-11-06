@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --tw-shadow-color: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +25,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+.border-radius-bottom {
+  border-radius: 0 0 5px 5px; /* Add border radius only to the bottom */
 }

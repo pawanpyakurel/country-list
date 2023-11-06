@@ -1,0 +1,18 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.format": true
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "prettier.singleAttributePerLine": true,
+  "prettier.semi": false,
+  "notebook.formatOnSave.enabled": true,
+  "explorer.autoReveal": true
+}
