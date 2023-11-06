@@ -5,7 +5,7 @@
   "author": "Pawan Pyakurel",
   "scripts": {
     "dev": "next dev",
-    "dev:watch": "NODE_OPTIONS='--inspect' next dev -p 3009",
+    "dev:watch": "NODE_OPTIONS='--inspect' next dev -p 3000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -15,20 +15,30 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/material": "^5.14.16",
+    "@popmotion/popcorn": "^0.4.4",
+    "classnames": "^2.3.2",
+    "framer-motion": "^10.16.4",
+    "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.1"
+    "sass": "^1.69.5",
+    "underscore": "^1.13.6"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/underscore": "^1.11.12",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.1"
+    "typescript": "^5"
   },
   "engines": {
     "node": "18.x.x"
